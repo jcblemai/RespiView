@@ -1,0 +1,393 @@
+{
+  "last_updated": "2025-01-21 16:28:50",
+  "models": [
+    "FluSight-baseline",
+    "Metaculus-cp",
+    "UMass-trends_ensemble",
+    "SGroup-RandomForest",
+    "FluSight-national_cat",
+    "FluSight-ens_q_cat",
+    "UGA_flucast-Scenariocast",
+    "UM-DeepOutbreak",
+    "ISU_NiemiLab-GPE",
+    "SigSci-BECAM",
+    "ISU_NiemiLab-NLH",
+    "ISU_NiemiLab-ENS",
+    "VTSanghani-PRIME",
+    "SigSci-CREG",
+    "FluSight-base_seasonal",
+    "MIGHTE-Joint",
+    "MIGHTE-Nsemble",
+    "Gatech-ensemble_prob",
+    "NEU_ISI-FluBcast",
+    "Stevens-ILIForecast",
+    "UI_CompEpi-EpiGen",
+    "PSI-PROF",
+    "CU-ensemble",
+    "UMass-AR2",
+    "FluSight-equal_cat",
+    "NEU_ISI-AdaptiveEnsemble",
+    "CMU-climate_baseline",
+    "UGA_flucast-Copycat",
+    "LUcompUncertLab-chimera",
+    "cfa-flumech",
+    "UGuelph-CompositeCurve",
+    "FluSight-baseline_cat",
+    "NU_UCSD-GLEAM_AI_FLUH",
+    "fjordhest-ensemble",
+    "ISU_NiemiLab-SIR",
+    "MDPredict-SIRS",
+    "UGuelphensemble-GRYPHON",
+    "CMU-TimeSeries",
+    "JHU_CSSE-CSSE_Ensemble",
+    "GT-FluFNP",
+    "UGA_flucast-INFLAenza",
+    "UMass-flusion",
+    "UVAFluX-Ensemble",
+    "JHUAPL-DMD",
+    "FluSight-lop_norm",
+    "FluSight-ensemble",
+    "CEPH-Rtrend_fluH",
+    "UGA_CEID-Walk",
+    "FluSight-trained_mean",
+    "NIH-Flu_ARIMA",
+    "UVAFluX-CESGCN",
+    "PSI-PROF_beta",
+    "CFA_Pyrenew-Pyrenew_H_Flu",
+    "GH-model",
+    "CADPH-FluCAT_Ensemble",
+    "SigSci-TSENS",
+    "JHUAPL-Morris",
+    "Stevens-GBR",
+    "UGA_flucast-OKeeffe",
+    "Gatech-ensemble_point",
+    "UNC_IDD-InfluPaint",
+    "OHT_JHU-nbxd",
+    "MOBS-GLEAM_FLUH",
+    "FluSight-trained_med",
+    "VTSanghani-Ensemble",
+    "LosAlamos_NAU-CModel_Flu",
+    "cfarenewal-cfaepimlight"
+  ],
+  "locations": [
+    {
+      "location": "US",
+      "abbreviation": "US",
+      "location_name": "US",
+      "population": 334914895.0
+    },
+    {
+      "location": "01",
+      "abbreviation": "AL",
+      "location_name": "Alabama",
+      "population": 5108468.0
+    },
+    {
+      "location": "02",
+      "abbreviation": "AK",
+      "location_name": "Alaska",
+      "population": 733406.0
+    },
+    {
+      "location": "04",
+      "abbreviation": "AZ",
+      "location_name": "Arizona",
+      "population": 7431344.0
+    },
+    {
+      "location": "05",
+      "abbreviation": "AR",
+      "location_name": "Arkansas",
+      "population": 3067732.0
+    },
+    {
+      "location": "06",
+      "abbreviation": "CA",
+      "location_name": "California",
+      "population": 38965193.0
+    },
+    {
+      "location": "08",
+      "abbreviation": "CO",
+      "location_name": "Colorado",
+      "population": 5877610.0
+    },
+    {
+      "location": "09",
+      "abbreviation": "CT",
+      "location_name": "Connecticut",
+      "population": 3617176.0
+    },
+    {
+      "location": "10",
+      "abbreviation": "DE",
+      "location_name": "Delaware",
+      "population": 1031890.0
+    },
+    {
+      "location": "11",
+      "abbreviation": "DC",
+      "location_name": "District of Columbia",
+      "population": 678972.0
+    },
+    {
+      "location": "12",
+      "abbreviation": "FL",
+      "location_name": "Florida",
+      "population": 22610726.0
+    },
+    {
+      "location": "13",
+      "abbreviation": "GA",
+      "location_name": "Georgia",
+      "population": 11029227.0
+    },
+    {
+      "location": "15",
+      "abbreviation": "HI",
+      "location_name": "Hawaii",
+      "population": 1435138.0
+    },
+    {
+      "location": "16",
+      "abbreviation": "ID",
+      "location_name": "Idaho",
+      "population": 1964726.0
+    },
+    {
+      "location": "17",
+      "abbreviation": "IL",
+      "location_name": "Illinois",
+      "population": 12549689.0
+    },
+    {
+      "location": "18",
+      "abbreviation": "IN",
+      "location_name": "Indiana",
+      "population": 6862199.0
+    },
+    {
+      "location": "19",
+      "abbreviation": "IA",
+      "location_name": "Iowa",
+      "population": 3207004.0
+    },
+    {
+      "location": "20",
+      "abbreviation": "KS",
+      "location_name": "Kansas",
+      "population": 2940546.0
+    },
+    {
+      "location": "21",
+      "abbreviation": "KY",
+      "location_name": "Kentucky",
+      "population": 4526154.0
+    },
+    {
+      "location": "22",
+      "abbreviation": "LA",
+      "location_name": "Louisiana",
+      "population": 4573749.0
+    },
+    {
+      "location": "23",
+      "abbreviation": "ME",
+      "location_name": "Maine",
+      "population": 1395722.0
+    },
+    {
+      "location": "24",
+      "abbreviation": "MD",
+      "location_name": "Maryland",
+      "population": 6180253.0
+    },
+    {
+      "location": "25",
+      "abbreviation": "MA",
+      "location_name": "Massachusetts",
+      "population": 7001399.0
+    },
+    {
+      "location": "26",
+      "abbreviation": "MI",
+      "location_name": "Michigan",
+      "population": 10037261.0
+    },
+    {
+      "location": "27",
+      "abbreviation": "MN",
+      "location_name": "Minnesota",
+      "population": 5737915.0
+    },
+    {
+      "location": "28",
+      "abbreviation": "MS",
+      "location_name": "Mississippi",
+      "population": 2939690.0
+    },
+    {
+      "location": "29",
+      "abbreviation": "MO",
+      "location_name": "Missouri",
+      "population": 6196156.0
+    },
+    {
+      "location": "30",
+      "abbreviation": "MT",
+      "location_name": "Montana",
+      "population": 1132812.0
+    },
+    {
+      "location": "31",
+      "abbreviation": "NE",
+      "location_name": "Nebraska",
+      "population": 1978379.0
+    },
+    {
+      "location": "32",
+      "abbreviation": "NV",
+      "location_name": "Nevada",
+      "population": 3194176.0
+    },
+    {
+      "location": "33",
+      "abbreviation": "NH",
+      "location_name": "New Hampshire",
+      "population": 1402054.0
+    },
+    {
+      "location": "34",
+      "abbreviation": "NJ",
+      "location_name": "New Jersey",
+      "population": 9290841.0
+    },
+    {
+      "location": "35",
+      "abbreviation": "NM",
+      "location_name": "New Mexico",
+      "population": 2114371.0
+    },
+    {
+      "location": "36",
+      "abbreviation": "NY",
+      "location_name": "New York",
+      "population": 19571216.0
+    },
+    {
+      "location": "37",
+      "abbreviation": "NC",
+      "location_name": "North Carolina",
+      "population": 10835491.0
+    },
+    {
+      "location": "38",
+      "abbreviation": "ND",
+      "location_name": "North Dakota",
+      "population": 783926.0
+    },
+    {
+      "location": "39",
+      "abbreviation": "OH",
+      "location_name": "Ohio",
+      "population": 11785935.0
+    },
+    {
+      "location": "40",
+      "abbreviation": "OK",
+      "location_name": "Oklahoma",
+      "population": 4053824.0
+    },
+    {
+      "location": "41",
+      "abbreviation": "OR",
+      "location_name": "Oregon",
+      "population": 4233358.0
+    },
+    {
+      "location": "42",
+      "abbreviation": "PA",
+      "location_name": "Pennsylvania",
+      "population": 12961683.0
+    },
+    {
+      "location": "44",
+      "abbreviation": "RI",
+      "location_name": "Rhode Island",
+      "population": 1095962.0
+    },
+    {
+      "location": "45",
+      "abbreviation": "SC",
+      "location_name": "South Carolina",
+      "population": 5373555.0
+    },
+    {
+      "location": "46",
+      "abbreviation": "SD",
+      "location_name": "South Dakota",
+      "population": 919318.0
+    },
+    {
+      "location": "47",
+      "abbreviation": "TN",
+      "location_name": "Tennessee",
+      "population": 7126489.0
+    },
+    {
+      "location": "48",
+      "abbreviation": "TX",
+      "location_name": "Texas",
+      "population": 30503301.0
+    },
+    {
+      "location": "49",
+      "abbreviation": "UT",
+      "location_name": "Utah",
+      "population": 3417734.0
+    },
+    {
+      "location": "50",
+      "abbreviation": "VT",
+      "location_name": "Vermont",
+      "population": 647464.0
+    },
+    {
+      "location": "51",
+      "abbreviation": "VA",
+      "location_name": "Virginia",
+      "population": 8715698.0
+    },
+    {
+      "location": "53",
+      "abbreviation": "WA",
+      "location_name": "Washington",
+      "population": 7812880.0
+    },
+    {
+      "location": "54",
+      "abbreviation": "WV",
+      "location_name": "West Virginia",
+      "population": 1770071.0
+    },
+    {
+      "location": "55",
+      "abbreviation": "WI",
+      "location_name": "Wisconsin",
+      "population": 5910955.0
+    },
+    {
+      "location": "56",
+      "abbreviation": "WY",
+      "location_name": "Wyoming",
+      "population": 584057.0
+    },
+    {
+      "location": "72",
+      "abbreviation": "PR",
+      "location_name": "Puerto Rico",
+      "population": 3205691.0
+    }
+  ],
+  "demo_mode": false
+}
