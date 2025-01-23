@@ -1,11 +1,6 @@
 name: Process FluSight Data
 
-on:
-  schedule:
-    # Run at 11 PM ET Wednesday (3 AM UTC Thursday) and 10 AM ET Thursday (2 PM UTC Thursday)
-    - cron: '0 3 * * 4'
-    - cron: '0 14 * * 4'
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   process-data:
